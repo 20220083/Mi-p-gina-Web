@@ -9,7 +9,10 @@
 <!-- Estilos personalizados -->
 <style>
   h1, h2, h3, h4 {
-    color: #f8c6d8; /* rosa pastel */
+    color: #f8c6d8; /* rosa pastel para los encabezados */
+  }
+  .navbar, footer {
+    background-color: #f8c6d8 !important; /* rosa pastel para navbar y footer */
   }
 </style>
 
@@ -17,11 +20,11 @@
 <body>
 
 <!-- Navbar con imagen en el encabezado -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
     <!-- Imagen en el encabezado -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="https://i.pinimg.com/736x/ba/8d/77/ba8d77790bb0955984fefed175e8d0ee.jpg" 
+      <img src="https://i.pinimg.com/736x/1e/2f/a0/1e2fa0a1ef2f095d077429cb5242f7bd.jpg" 
            alt="Mi Foto" 
            width="50" 
            height="50" 
@@ -44,8 +47,11 @@
 </nav>
 
 <!-- Encabezado de bienvenida -->
-<div class="container mt-5">
-  <h1 class="text-center">¡Bienvenido a mi página web!</h1>
+<div class="container mt-5 text-center">
+  <h1>¡Bienvenido a mi página web!</h1>
+
+  <!-- Imagen formal después del encabezado -->
+  <img src="https://i.pinimg.com/736x/40/84/4d/40844d31e7b6073d526731006fa70ac7.jpg" alt="Foto Formal" class="img-fluid rounded-circle mt-3" width="200">
 </div>
 
 <!-- Sección Inicio sin imagen -->
@@ -96,9 +102,8 @@
   <h4>Contacto</h4>
   <p>Email: sofiamerida406@gmail.com</p>
 </section>
-
 <!-- Footer -->
-<footer class="bg-dark text-light text-center p-3 mt-5">
+<footer class="text-light text-center p-3 mt-5">
   <p>© 2025 Sofia Mérida | Sitio web creado con Bootstrap 5</p>
 </footer>
 
